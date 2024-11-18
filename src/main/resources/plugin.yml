@@ -1,0 +1,14 @@
+name: '${name}'
+version: '${project.version}'
+description: Sets players hearts like from hardcore
+
+main: com.github.groundbreakingmc.hardcorehearts.HardcoreHearts
+api-version: 1.16
+depend: [ packetevents ]
+
+authors: [ Groundbreakingmc ]
+website: '${url}'
+
+permissions:
+  hardcorehearts.see:
+    default: false
